@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AspNetCoreWebApp.Models;
+using NuGet.Packaging.Signing;
 
 namespace GenshinTierList.Controllers
 {
@@ -19,9 +20,26 @@ namespace GenshinTierList.Controllers
         }
 
         // GET: TierLists
-        public async Task<IActionResult> Index()
+        /*public async Task<IActionResult> Index()
         {
               return View(await _context.TierList.ToListAsync());
+        }*/
+        public async Task<IActionResult> Index(string searchString)
+        {
+            if (_context.TierList == null)
+            {
+                return Problem("Entity set 'MvcMovieContext.TierList'  is null.");
+            }
+
+            var tierLists = from m in _context.TierList
+                         select m;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                tierLists = tierLists.Where(s => s.Name!.Contains(searchString));
+            }
+
+            return View(await tierLists.ToListAsync());
         }
 
         // GET: TierLists/Details/5

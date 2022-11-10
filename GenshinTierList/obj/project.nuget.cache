@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "y5CPw+/D+PVrgXwKEYJ4/u4j/x/Q/pjd8DmeUngTCBWvEagPDANm3zhkRHGQPnOg+VDtlF2SLEyYmmrX/345TQ==",
+  "dgSpecHash": "b8ITffuwnaR0UhMoHlVGDxkPGBhjAvque4/yDy/zkNOT2EbSdvvpnDiT9UbOps27+HMX/kyp1NfnCmCL8LObvA==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\ASP.NET core web\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj",
+  "projectFilePath": "W:\\Projects\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pallidpxnk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pallidpxnk\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\pallidpxnk\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\pallidpxnk\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\pallidpxnk\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.0\\microsoft.aspnetcore.authentication.facebook.6.0.0.nupkg.sha512",
+    "C:\\Users\\pallidpxnk\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.0\\microsoft.aspnetcore.authentication.google.6.0.0.nupkg.sha512",
     "C:\\Users\\pallidpxnk\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\pallidpxnk\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\pallidpxnk\\.nuget\\packages\\microsoft.build\\17.0.0\\microsoft.build.17.0.0.nupkg.sha512",

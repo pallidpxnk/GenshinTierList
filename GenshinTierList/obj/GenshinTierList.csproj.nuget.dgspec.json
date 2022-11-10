@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\ASP.NET core web\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj": {}
+    "W:\\Projects\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\ASP.NET core web\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj": {
+    "W:\\Projects\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\ASP.NET core web\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj",
+        "projectUniqueName": "W:\\Projects\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj",
         "projectName": "GenshinTierList",
-        "projectPath": "E:\\Projects\\ASP.NET core web\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj",
+        "projectPath": "W:\\Projects\\GenshinTierList\\GenshinTierList\\GenshinTierList.csproj",
         "packagesPath": "C:\\Users\\pallidpxnk\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\ASP.NET core web\\GenshinTierList\\GenshinTierList\\obj\\",
+        "outputPath": "W:\\Projects\\GenshinTierList\\GenshinTierList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pallidpxnk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.10, )"
