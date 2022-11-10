@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AU24gxo9ALtMqyRH8eFfxdXyoRtBCd+6cVxKF/clNGc=",
+  "Hash": "Sg2cWxuQmKa21j0rT14Yads3e8fHoc8d6K3MnheDU38=",
   "Source": "GenshinTierList",
   "BasePath": "_content/GenshinTierList",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ayaka.jpg"
+    },
+    {
+      "Identity": "W:\\Projects\\GenshinTierList\\GenshinTierList\\wwwroot\\images\\background.jpg",
+      "SourceId": "GenshinTierList",
+      "SourceType": "Discovered",
+      "ContentRoot": "W:\\Projects\\GenshinTierList\\GenshinTierList\\wwwroot\\",
+      "BasePath": "_content/GenshinTierList",
+      "RelativePath": "images/background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\background.jpg"
     },
     {
       "Identity": "W:\\Projects\\GenshinTierList\\GenshinTierList\\wwwroot\\images\\bennet.jpg",
