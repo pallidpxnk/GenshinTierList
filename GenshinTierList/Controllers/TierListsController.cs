@@ -41,7 +41,7 @@ namespace GenshinTierList.Controllers
 
             return View(await tierLists.ToListAsync());
         }
-
+        // Детали
         // GET: TierLists/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -59,7 +59,7 @@ namespace GenshinTierList.Controllers
 
             return View(tierList);
         }
-
+        // Создать
         // GET: TierLists/Create
         public IActionResult Create()
         {
@@ -81,7 +81,7 @@ namespace GenshinTierList.Controllers
             }
             return View(tierList);
         }
-
+        // Изменить
         // GET: TierLists/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -132,7 +132,7 @@ namespace GenshinTierList.Controllers
             }
             return View(tierList);
         }
-
+        // Удалить
         // GET: TierLists/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
