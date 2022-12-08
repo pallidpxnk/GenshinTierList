@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace AspNetCoreWebApp.Models
 {
-    public class TierList
+    public class TierList // класс общей информации о персонажах
     {
         public int Id { get; set; }
 
