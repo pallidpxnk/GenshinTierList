@@ -2,7 +2,7 @@
 
 namespace AspNetCoreWebApp.Models
 {
-    public enum Atribute
+    public enum Atribute // модель атрибута
     {
         DPS,
         SUB_DPS,
